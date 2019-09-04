@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dock365/reform-react-datepicker-field.git"
+    "url": "git+https://github.com/dock365/date-picker-field"
   },
   "keywords": [
     "react",
@@ -29,9 +29,9 @@
   "author": "Abilash VB <abilash8086@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dock365/reform-react-datepicker-field/issues"
+    "url": "https://github.com/dock365/date-picker-field/issues"
   },
-  "homepage": "https://github.com/dock365/reform-react-datepicker-field#readme",
+  "homepage": "https://github.com/dock365/date-picker-field#readme",
   "devDependencies": {
     "@braces/tslint-config": "^0.3.1",
     "@dock365/reform": "^0.11.6-5",
