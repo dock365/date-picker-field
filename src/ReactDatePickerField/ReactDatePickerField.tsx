@@ -30,6 +30,7 @@ export type propsType = IFieldRenderProps & {
     showTimeSelect?: boolean;
     timeIntervals?: number;
     timeFormat?: string;
+    showTimeSelectOnly?: string;
   };
 };
 
@@ -70,6 +71,9 @@ class ReactDatePickerField extends React.Component<
           dateFormat={
             (this.props.customProps && this.props.customProps.dateFormat) ||
             "MM/dd/yyyy"
+          }
+          showTimeSelectOnly={
+            this.props.customProps && this.props.customProps.showTimeSelectOnly
           }
           className={className.datePickerField}
         />
